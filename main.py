@@ -51,6 +51,8 @@ def predict_fun(propsize: int=1000):
     print(type(predict1_list))
     print(predict1_list)
 
+    print('I am making a change here for git testing!!!!')
+    
     return {"info":predict1_list}
 
 
