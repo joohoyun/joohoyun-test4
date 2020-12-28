@@ -52,7 +52,7 @@ def predict_fun(propsize: int=1000):
     print(predict1_list)
 
     print('I am making a change here for git testing!!!!')
-    
+
     return {"info":predict1_list}
 
 
@@ -153,6 +153,9 @@ def create_city(city: City):
 @app.delete('/cities/{city_id}')
 def delete_city(city_id: int):
     db.pop(city_id-1)
+
+    print('This is the second change to the main file for again testing purposes*****')
+
     return {}
 
 @app.get("/get_csv")
